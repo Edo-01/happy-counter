@@ -5,12 +5,14 @@ let on = document.querySelector('#on');
 let ballOff = document.querySelector('.off');
 let ballOn = document.querySelector('.on');
 let logo = document.querySelector('#logo');
+let bgMobile = document.querySelector('#bg-mobile');
 
 off.addEventListener('click', function() {
  ballOn.hidden = true;
  ballOff.hidden = false;
  document.body.className = 'body-light';
  logo.src = 'assets/images/titolo.svg';
+ bgMobile.classList.add('first-container-w');
 });
 
 on.addEventListener('click', function() {
@@ -18,6 +20,7 @@ on.addEventListener('click', function() {
   ballOff.hidden = true;
   document.body.removeAttribute('class');
   logo.src = 'assets/images/titolo-bianco.svg';
+  bgMobile.classList.remove('first-container-w');
 });
 
 let blockNotes = document.querySelector('.block-notes');
@@ -158,7 +161,7 @@ let orderNumber = 1;
 simbolSave.addEventListener('click', function() {
   let time = new Date();
   let timeComplete = `${time.getHours()}:${time.getMinutes()}`;
-  let xnumber = resultNumber.textContent; 
+  let xnumber = resultNumber.textContent;
   tabella.hidden = false;
   let countSave = document.createElement('tr');
   countSave.innerHTML = `<td id="order-number">#${orderNumber}</td><td id="number-save">${xnumber}</td><td id="time">${timeComplete}</td>`;

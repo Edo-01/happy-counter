@@ -166,7 +166,7 @@ body {
   background-color: #8C79FF;
   border-radius: 30px;
   width: 80%;
-  min-width: 287px; 
+  min-width: 287px;
   margin-bottom: 20px;
   padding: 20px 8px 5px 8px;
   box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.30);
@@ -616,5 +616,15 @@ color: #fff;
   #logo {
     width: 50%;
     padding-left: 8px;
+  }
+  .first-container {
+   position: sticky;
+   top: 0px;
+   left: 0px;
+   background-color: #1C0854;
+   z-index: 1000;
+  }
+  .first-container-w {
+   background-color: #F3F3F3;
   }
 }
