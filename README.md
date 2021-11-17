@@ -14,7 +14,7 @@
 ## Screenshots
 
 
-![Home Page](assets/images/desktop-1)
+![Home Page](assets/images/desktop-1.png)
 
 ![](/screenshots/2.png)
 
