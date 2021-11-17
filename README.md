@@ -1,5 +1,5 @@
 # Happy Counter
-
+![image alt ><](assets/images/icona-readme.png)
 ![](assets/images/icona-readme.png)
 
 
