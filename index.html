@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Happy Counter</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/images/icona.png" rel="icon">
+  </head>
+  <body>
+    <div class="first-container">
+      <div class="switch-container">
+        <div class="switch-background">
+          <div id="on" class="area-on">
+            <div class="on"></div>
+          </div>
+          <div id="off" class="area-off">
+            <div class="off" hidden></div>
+          </div>
+        </div>
+      </div>
+      <img id="logo" src="assets/images/titolo-bianco.svg" width="30%">
+      <div class="col-3"><img class="img-4" src="assets/images/rotella 1.svg"></div>
+    </div>
+    <aside>
+      <div class="container-img">
+        <img class="img-1" src="assets/images/rotella 1.svg">
+        <img class="img-2" src="assets/images/rotella 2.svg">
+        <img class="img-3" src="assets/images/rotella 3.svg">
+      </div>
+    </aside>
+    <section>
+      <div class="container-2">
+        <div class="column-30">
+          <div class="cancellation">
+            <div class="cancellation-interno">
+              <h3>N° CANCELLATION</h3>
+              <div id="close-cancellazioni" class="closed" style="display:none">
+                <p>Close</p>
+              </div>
+            </div>
+            <div id="contatore-cancellazioni" class="contatore-cancellazioni">0</div>
+            <h2 class="open-cancellation">=</h2>
+          </div>
+          <div class="record">
+            <div class="record-interno">
+              <h3>&nbsp&nbsp&nbspYOUR RECORD&nbsp&nbsp&nbsp</h3>
+              <div id="close-record" class="closed" style="display:none">
+                <p>Close</p>
+              </div>
+            </div>
+            <table id="tabella" hidden>
+              <tr hidden>
+                <td id="order-number">#</td>
+                <td id="number-save"></td>
+                <td id="time"></td>
+                <td><div class="remove-single-recod">x</div></td>
+              </tr>
+            </table>
+            <h2 class="open-record">=</h2>
+            <p hidden class="alert-record">Click record for remove</p>
+          </div>
+        </div>
+        <div class="column-70">
+          <div class="counter">
+            <div class="container-color">
+              <div class="color-1-select"> </div>
+              <div class="color-2"> </div>
+              <div class="color-3"> </div>
+            </div>
+            <div class="monitor">
+              <h3 id="result-number">0</h3>
+            </div>
+            <div class="tasti-row-1">
+              <div id="incrementa-numero" class="simbol-plus">
+                <h3>+</h3>
+              </div>
+              <div id="decrementa-numero" class="simbol-less">
+                <h3>-</h3>
+              </div>
+            </div>
+            <div class="tasti-row-2">
+              <div id="del-numero" class="simbol-del">
+                <h3>DEL</h3>
+              </div>
+              <div class="simbol-save">
+                <h3>SAVE COUNT</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="notes-icon">
+        <div class="alert">1</div>
+        <h3>Notes</h3>
+      </div>
+      <div class="block-notes" hidden>
+          <textarea class="notes-text" placeholder="Write here..."></textarea>
+          <div id="close-note" class="closed floating">Close</div>
+      </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
