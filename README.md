@@ -7,9 +7,7 @@
 
 ![Home Page](assets/images/desktop-1.png)
 
-![](/screenshots/2.png)
 
-![](/screenshots/3.png)
 
 ## Informazioni sul progetto
 
