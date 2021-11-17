@@ -1,9 +1,9 @@
 # Happy Counter
 
 ![](assets/images/icona-readme.png)
-
-<img style="margin: 0px, auto;" src="assets/images/icona-readme.png">
-
+<div style="display: flex; justify-content: center;">
+<img src="assets/images/icona-readme.png">
+</div>
 ## Links
 
 - [Repo](https://github.com/Edo-01/happy-counter "Happy Counter")
