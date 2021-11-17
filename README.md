@@ -2,7 +2,7 @@
 
 ![](assets/images/icona-readme.png)
 
-
+<img style="margin: 0px, auto;" src="assets/images/icona-readme.png">
 
 ## Links
 
