@@ -1,14 +1,14 @@
 # Happy Counter
 
-
+![](assets/images/icona-readme.png)
 
 
 
 ## Links
 
-- [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
+- [Repo](https://github.com/Edo-01/happy-counter "Happy Counter")
 
-- [Live](<Homepage url> "Live View")
+- [Live](<https://edo-01.github.io/happy-counter/> "Happy Counter")
 
 
 
@@ -24,14 +24,14 @@
 ## Informazioni sul progetto
 ---
 
-Happy Counter, dispinibile cilccando [qui](https://), è un semplice contatore che ti consente di tenere traccia di qualsiasi cosa.
+Happy Counter, dispinibile cilccando [qui](https://edo-01.github.io/happy-counter/), è un semplice contatore che ti consente di tenere traccia di qualsiasi cosa.
 Ha un design minimal con solo quattro pulsanti per un facile accesso.
 
 ## Iniziare
 ---
 
 Happy Counter è un' applicazione web e non necessita di alcuna installazione.
-cilccando [qui](https://) potrai iniziare ad utilizzarla immadiatamente.
+cilccando [qui](https://edo-01.github.io/happy-counter/) potrai iniziare ad utilizzarla immadiatamente.
 
 
 ## Funzionalità
@@ -67,13 +67,11 @@ Caratteristiche e funzionalità:
 
 **Edoardo Ottolenghi**
 
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
+- [Profile](https://github.com/Edo-01 "Edoardo Ottolenghi")
+- [Email](mailto:edoardo.ottolenghi@gmail.com?subject=Hi "Hi!")
+- [Website](https://edo-01.github.io/E.O-Web-Site/)
 
-## 🤝 Supporto
+## Supporto
 ---
 
 Contributi e richieste di funzionalità sono i benvenuti!
-
-Lascia una ⭐️  se ti piace questo progetto.
