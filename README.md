@@ -2,14 +2,6 @@
 ![image alt ><](assets/images/icona-readme.png)
 
 
-## Links
-
-- [Repo](https://github.com/Edo-01/happy-counter "Happy Counter")
-
-- [Live](<https://edo-01.github.io/happy-counter/> "Happy Counter")
-
-
-
 ## Screenshots
 
 
