@@ -12,7 +12,7 @@
 ## Informazioni sul progetto
 
 
-Happy Counter, dispinibile cilccando [qui](https://edo-01.github.io/happy-counter/), è un semplice contatore che ti consente di tenere traccia di qualsiasi cosa.
+Happy Counter, disponibile cilccando [qui](https://edo-01.github.io/happy-counter/), è un semplice contatore che ti consente di tenere traccia di qualsiasi cosa.
 Ha un design minimal con solo quattro pulsanti per un facile accesso.
 
 ## Iniziare
