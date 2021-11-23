@@ -46,7 +46,6 @@ bottmCanc.classList.add('bottom-canc');
 bottmCanc.hidden = true;
 blockNotes.append(bottmCanc);
 
-
 textarea.addEventListener('keypress', function() {
   avviso.style.display = 'flex';
   bottmCanc.hidden = false;
@@ -64,9 +63,24 @@ closeNotes.addEventListener('click', function() {
   }
 });
 
+let containerColor = document.querySelector('.container-color');
+let monitor = document.createElement('div');
+monitor.classList.add('monitor');
+monitor.innerHTML = '<h3 id="result-number">0</h3>';
+containerColor.after(monitor);
+let tastiRowUno = document.createElement('div');
+tastiRowUno.classList.add('tasti-row-1');
+monitor.after(tastiRowUno);
+let incrementaNumero = document.createElement('div');
+incrementaNumero.classList.add('simbol-plus');
+incrementaNumero.innerHTML = '<h3>+</h3>';
+tastiRowUno.prepend(incrementaNumero);
+let decrementaNumero = document.createElement('div');
+decrementaNumero.classList.add('simbol-less');
+decrementaNumero.innerHTML = '<h3>-</h3>';
+tastiRowUno.append(decrementaNumero);
+
 let resultNumber = document.querySelector('#result-number');
-let incrementaNumero = document.querySelector('#incrementa-numero');
-let decrementaNumero = document.querySelector('#decrementa-numero');
 let delNumero = document.querySelector('#del-numero');
 
 function incrementa()  {
@@ -126,7 +140,6 @@ bottmCancCancellazioni.addEventListener('click', function() {
 contatoreCancellazioni.textContent = 0;
 });
 
-let monitor = document.querySelector('.monitor');
 let colorRosa = document.querySelector('.color-3');
 let colorScuro = document.querySelector('.color-1-select');
 let colorBianco = document.querySelector('.color-2');
@@ -156,7 +169,6 @@ let numberSave = document.querySelector('#number-save');
 let simbolSave = document.querySelector('.simbol-save');
 let tabella = document.querySelector('#tabella');
 let orderNumber = 1;
-
 
 simbolSave.addEventListener('click', function() {
   let time = new Date();
